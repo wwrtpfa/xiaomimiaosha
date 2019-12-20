@@ -1,1 +1,9 @@
-https://dunwu.github.io/javaweb/#/
+class MyIterable(object):
+    def __init__(self, items):
+        self.items = items
+
+    def __iter__(self):
+        print('MyIterable.__iter__')
+        # 创建一个迭代器
+        return MyIterator(self.items)
+
