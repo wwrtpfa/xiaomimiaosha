@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    height: 10000px;
+}
+/*顶部*/
+.topbar{
+    text-align: center;
+    line-height:40px;
+    background-color: #333;
+    height: 40px;
+    width: 100%;
+
+}
+.topbar-chapter{
+    height: 40px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.topbar-1{
+    float: left;
+}
+.topbar-3{
+    float: right;
+}
+.topbar-2{
+    float: right;
+}
+.topbar a{
+    color: #f4f8ff;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.topbar a:hover{
+    color: #777b82;
+}
+.topbar-3:hover{
+    background-color: #c9c7c8;
+    color: #ff6700;
+}
+/*头部*/
+.header{
+    text-align: center;
+}
+.header-chapter{
+    height: 110px;
+    width: 1226px;
+    margin: 0 auto;
+    border: solid #ffffff;
+}
+.header-log{
+    float: left;
+    width: 62px;
+    height: 55px;
+    margin-top: 22px;
+}
+.header-nav{
+
+    float: left;
+    width: 820px;
+    height: 110px;
+    line-height:40px;
+    font-size: 500%;
+}
+.header-search{
+    display: block;
+    float: right;
+    width: 296px;
+    height: 110px;
+    text-align: center;
+    line-height: 90px;
+}
+.search-form{
+    display: block;
+    width: 296px;
+    height: 110px;
+}
+.header-log a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: #fe8835 url("../img/mi-logo.png");
+}
+.header a:hover{
+    color: #ff6700;
+}
+ .search-test {
+     width: 200px;
+     height: 50px;
+}
+.search-submit{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+}
+.search-submit:hover{
+    background-color: #ff6700;
+}
+/*主体*/
+.body{
+    background-color: #f5f5f5;
+}
+.body-header {
+
+    height: 170px;
+    width: 100%;
+    /*选择图片作为背景*/
+    background: url("../img/seckill-head.jpg") no-repeat;
+}
+.body-nav{
+
+}
+.body-guding{
+    /*固定菜单栏暂时不会用*/
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #414141;
+    margin: -68px 0%;
+    top: 140px;
+}
+.body-nav ul{
+    display: block;
+    width: 80%;
+    height: 68px;
+    background-color: #414141;
+    margin: -68px 10%;
+
+}
+.body-nav li{
+    display: block;
+    float: left;
+    color: #fff;
+    width: 20%;
+    height: 68px;
+    text-align: center;
+    line-height: 68px;
+    cursor: pointer;
+}
+.body-nav .active{
+    background-color: #f1393a;
+}
+.body-nav li em{
+    display: inline-block;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.body-information ul{
+    display: none;
+    float: left;
+    width: 80%;
+    margin: 10px 0px 0px 7%;
+}
+/*在有active时才显现*/
+.body-information .active{
+    display: block;
+}
+/*一般不显现*/
+.body-information li{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 190px;
+    background-color: #fff;
+}
+.body-information .bg{
+    float: left;
+    width: 190px;
+    height: 190px;
+}
+.body-information .bg img{
+    height: 190px;
+}
+.body-information .info{
+    padding-top: 10px;
+    float: right;
+    width: 190px;
+    height: 190px;
+}
+.body-information .info .name{
+    font-size: 16px;
+    color: #333333;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+    white-space: nowrap;     /*不换行*/
+    overflow: hidden;  /*超出部分隐藏*/
+    text-overflow: ellipsis; /*超出部分以点点代替*/
+}
+.body-information .info .tips,.body-information .info del,.body-information .info .tips1{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+    color: #b0b0b0;
+}
+.body-information .info .price{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 14px;
+    color: #f1393a;
+}
+.body-information .info .btn{
+    display: inline-block;     /*设置成块元素并且不换行*/
+    height: 28px;
+    width: 118px;
+    color: #ffffff;
+    background-color: #f1393a;
+    line-height: 28px;
+    text-align: center;
+
+}
